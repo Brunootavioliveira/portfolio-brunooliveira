@@ -1,0 +1,7 @@
+:root {
+  --color-bg-light: #081369; /* Azul claro */
+  --color-bg-dark: #0b0f2a;  /* Azul escuro */
+  --color-text: #ffffff;
+  --color-highlight: #c4b5fd;
+  --font-main: 'Poppins', sans-serif;
+}

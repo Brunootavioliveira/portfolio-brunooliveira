@@ -1,0 +1,39 @@
+/* 1024px e abaixo */
+@media (max-width: 1024px) {
+  nav ul { gap: 20px; }
+  .timeline { width: min(100%, 780px); }
+}
+
+/* 900px e abaixo */
+@media (max-width: 900px) {
+  h1 { font-size: 2rem; }
+  p { font-size: 1.05rem; }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+/* 768px e abaixo */
+@media (max-width: 768px) {
+  nav ul { gap: 16px; }
+
+  .buttons { flex-direction: column; }
+
+  .line-effect {
+    bottom: 4rem;
+    height: 70px;
+    filter: blur(140px);
+  }
+}
+
+/* 600px e abaixo */
+@media (max-width: 600px) {
+  .timeline { padding-left: 22px; }
+  .timeline-item::before { left: -8px; width: 12px; height: 12px; }
+}
