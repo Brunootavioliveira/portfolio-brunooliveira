@@ -4,8 +4,8 @@
 }
 
 @media (max-width: 900px) {
-  h1 { font-size: 2rem; }
-  p { font-size: 1.05rem; }
+  h1 { font-size: 1.5rem; }
+  p { font-size: 0.9rem; }
 
   .about-container {
     flex-direction: column;
