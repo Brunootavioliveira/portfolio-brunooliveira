@@ -124,7 +124,7 @@ p {
   filter: blur(180px);
 }
 
-/* ===== About ===== */
+/*About*/
 .about {
   min-height: 80vh;
   display: flex;
@@ -157,14 +157,14 @@ p {
   display: block;
 }
 
-/* ===== Experiences ===== */
+/*Experiences*/
 .experiences {
   min-height: 80vh;
   padding: 80px 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20vhc;
+  margin-top: 15vh;
 }
 
 .timeline {
@@ -199,7 +199,7 @@ p {
   opacity: 0.7;
 }
 
-/* ===== Projects ===== */
+/*Projects*/
 .projects {
   min-height: 70vh;
   padding: 80px 10%;
@@ -220,8 +220,12 @@ p {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
   padding: 24px;
+  display: flex;              
+  flex-direction: column;    
+  justify-content: space-between; 
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 400px;      
 }
 
 .project-card:hover {
@@ -230,14 +234,23 @@ p {
 }
 
 .project-card a {
-  display: inline-block;
-  margin-top: 12px;
+  margin-top: auto;           
   text-decoration: none;
-  color: var(--color-highlight);
+  color: var(--color-text);
   font-weight: bold;
 }
 
-/* ===== Skills ===== */
+.project-card .tech {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.project-card p {
+  flex-grow: 1;
+}
+
+/*Skills*/
 .skills {
   min-height: 80vh;
   display: flex;
@@ -289,4 +302,74 @@ p {
   background: rgba(255, 255, 255, 0.08);
   font-size: clamp(1.4rem, 3vw, 2rem);
 }
+
+/* Fade-in Animation */
+.hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*Redes sociais (fazer)*/
+.social-links {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+.social-links a {
+  font-size: 1.8rem;
+  color: var(--color-highlight);
+  transition: transform 0.3s ease;
+}
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+/*Bootstrap aaaaaaa*/
+.custom-navbar {
+  transition: background-color 0.6s ease;
+  background: transparent !important; 
+}
+
+.custom-navbar.scrolled {
+  background: rgba(11, 15, 42, 0.95) !important;
+  box-shadow: 0 2px 10px rgba(89, 89, 89, 0.4);
+}
+
+.navbar-brand {
+  color: var(--color-text) !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link {
+  color: var(--color-text) !important;
+  margin-left: 20px;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--color-highlight) !important;
+}
+
+/* Botão hamburguer */
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+  color: var(--color-text) !important;
+  font-weight: bold;
+}
+
 
