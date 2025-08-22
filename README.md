@@ -66,7 +66,7 @@ O design é responsivo, moderno e com animações suaves.
 
 ## 👀 Pré-visualização
 Acesse o portfólio em: <br>
-👉 Link do Deploy (Vercel/GitHub Pages)
+👉 Link do Deploy (portfoliobrunootavio.com)
 
 ---
 
