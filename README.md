@@ -66,7 +66,7 @@ O design é responsivo, moderno e com animações suaves.
 
 ## 👀 Pré-visualização
 Acesse o portfólio em: <br>
-👉 Link do Deploy (portfoliobrunootavio.com)
+👉 [Link do Deploy](https://portfoliobrunooliveira.com.br)
 
 ---
 
@@ -83,9 +83,9 @@ Acesse o portfólio em: <br>
 ## 📬 Contato
 👨‍💻 Desenvolvido por <strong>Bruno Oliveira</strong>
 - ✉️ Email: devbrunootavio@gmail.com
-- 💼 LinkedIn: linkedin.com/in/bruno-otavio-oliveira-498b80282
-- 🐙 GitHub: github.com/Brunootavioliveira
-- ▶️ YouTube: @DevBrunoOtavio
+- 💼 LinkedIn: [Meu Linkedin](https://linkedin.com/in/bruno-otavio-oliveira-498b80282)
+- 🐙 GitHub: [Meu Github](https://github.com/Brunootavioliveira)
+- ▶️ YouTube: [@DevBrunoOtavio](https://www.youtube.com/@DevBrunoOtavio)
 
 
 
