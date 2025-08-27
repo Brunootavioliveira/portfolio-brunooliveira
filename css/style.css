@@ -216,6 +216,7 @@ p {
   width: min(100%, 1500px);
 }
 
+
 .project-card {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
@@ -370,6 +371,22 @@ p {
 h1, h2, h3, h4, h5, h6, span {
   color: var(--color-text) !important;
   font-weight: bold;
+}
+
+.translate-buttons button {
+  background: var(--color-highlight);
+  color: black;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.translate-buttons button:hover {
+  background: white;
+  color: black;
 }
 
 
